@@ -1,0 +1,1377 @@
+@media only screen and (min-width: 1366px) and (max-width: 1400px) {
+  #navbar {
+    .desktop_menu {
+      @include basicStyle(10vh, 0, 5rem);
+
+      .menu {
+        height: 100%;
+        width: 50%;
+      }
+    }
+  }
+
+  #header {
+    .details {
+      .left-col {
+      
+        .circle {
+          bottom: 17%;
+          width: 60%;
+        }
+      }
+      .right-col {
+        .btn-group {
+          width: 60%;
+        }
+      }
+    }
+    .review-section {
+      .text-review {
+        width: 30%;
+
+        .bubble {
+          p {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .banner {
+      height: 55vh;
+      .student {
+        top: -58%;
+        display: none;
+      }
+      .content {
+        padding: 2rem 5rem 2rem 2rem;
+
+        .details {
+          .banner-title {
+            padding: 0.5rem 1.2rem;
+          }
+          h1 {
+            font-size: 2rem;
+          }
+          h2 {
+            font-size: 1.1rem;
+          }
+          p {
+            font-size: 0.7rem;
+          }
+
+          .timing {
+            width: 100%;
+
+            .start,
+            .end {
+              .time {
+                h2 {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+
+          .price {
+            font-size: 1.5rem;
+            margin: 1rem 4rem 0 0;
+          }
+          .btn-group {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+
+  #journey {
+    padding: 10rem 5rem;
+
+    .left-slider {
+      width: 51%;
+      height: 50vh;
+
+      #journeyCard {
+        .card-item {
+          height: 23.8vh;
+        }
+      }
+    }
+    .right-details {
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  #ourSeminars {
+    @include basicStyle(145vh, 5rem, 5rem);
+  }
+
+  #popularCourses {
+    .front {
+      padding: 5rem;
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      .slider {
+        #courseCard {
+          height: 60vh;
+
+          .course-details {
+            padding: 1rem;
+            h2 {
+              font-size: 1.2rem;
+            }
+            .desc {
+              font-size: 0.7rem;
+            }
+
+            .enrollNum {
+              p {
+                font-size: 0.9rem;
+              }
+            }
+            .btn-group {
+              .right-btn {
+                height: 100%;
+                a {
+                  padding: 0;
+                  p {
+                    font-size: 0.9rem;
+                    margin-top: 1%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #coursePopup {
+      .content {
+        iframe {
+          height: 45%;
+        }
+
+        .details {
+          height: 55%;
+          .left-col {
+            height: 100%;
+
+            h2 {
+              font-size: 1rem;
+            }
+            p {
+              font-size: 0.5rem;
+            }
+          }
+
+          .right-col {
+            height: 100%;
+            ul {
+              li {
+                font-size: 0.6rem;
+              }
+            }
+            button {
+              width: 120px;
+              height: 35px;
+              margin-top: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #courseCategory {
+    @include basicStyle(100vh, 5rem, 5rem);
+
+    .left-col {
+      padding-top: 4rem;
+      img {
+        width: 80%;
+        left: -20%;
+      }
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+    .right-col {
+      width: 55%;
+
+      .category-grid {
+        margin-top: 7rem;
+        height: 70vh;
+
+        .category-item {
+          height: 100%;
+
+          h2 {
+            font-size: 1.2rem;
+          }
+          small {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+
+  #support {
+    @include basicStyle(70vh, 5rem, 5rem);
+
+    .switchBar {
+      .switches {
+        top: 10%;
+      }
+      .line {
+        width: 94%;
+        height: 2px;
+        left: 3%;
+        margin-top: -15px;
+      }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-top: 3rem;
+    }
+
+    .supportText {
+      margin-top: 2rem;
+    }
+  }
+
+  #seminar {
+    @include basicStyle(180vh, 5rem, 5rem);
+
+    .freeCourses {
+      .top-row {
+        h1 {
+          font-size: 2.5rem;
+        }
+      }
+
+      .bottom-row {
+        #freeCourseCard {
+          height: 60vh;
+
+          .course-details {
+            padding: 1rem;
+            h2 {
+              font-size: 1.2rem;
+            }
+            .desc {
+              font-size: 0.7rem;
+            }
+
+            .enrollNum {
+              p {
+                font-size: 0.9rem;
+              }
+            }
+            .btn-group {
+              .right-btn {
+                height: 100%;
+                a {
+                  padding: 0;
+                  p {
+                    font-size: 0.9rem;
+                    margin-top: 1%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #FAQ {
+    @include basicStyle(80vh, 5rem, 5rem);
+
+    .left-col {
+      @include flexStyles(start, start);
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      .linkBtn {
+        width: 30%;
+      }
+    }
+  }
+
+  #socialSupport {
+    @include basicStyle(90vh, 5rem, 5rem);
+    .left-col {
+      h1 {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  #ourTeam {
+    @include basicStyle(auto, 3rem, 5rem);
+
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+
+    .team {
+      .team-member {
+        .details {
+          h2 {
+            font-size: 1.2rem;
+          }
+        }
+      }
+
+      .team-member:nth-child(5) {
+        .details {
+          h2 {
+            font-size: 1.2rem;
+          }
+          small {
+            font-size: 0.6rem;
+          }
+        }
+      }
+    }
+  }
+
+  #footer {
+    height: 60vh;
+  }
+}
+//tablet - laptop
+@media only screen and (min-width: 600px) and (max-width: 1366px) {
+}
+
+//mobile
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  #navbar {
+    height: auto;
+    .desktop_menu {
+      display: none;
+    }
+    .mobile_menu,
+    .menuToggoler {
+      display: block;
+    }
+
+    .mobile_menu {
+      width: 100vw;
+      min-height: 10vh;
+      padding: 0rem 3rem;
+      position: fixed;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      backdrop-filter: blur(10px);
+
+      @include flexStyles(space-between, center);
+      .logo {
+        width: 35%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .menu {
+        opacity: 0;
+        border-top: 1px solid $bannerBorder;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        padding: 3rem;
+        top: 10vh;
+        left: 0;
+        @include flexStyles(start, center);
+        flex-direction: column;
+        background: $dark3;
+
+        li {
+          list-style: none;
+        }
+
+        .link {
+          @include flexStyles(start, center);
+          padding: 0.3rem 0rem;
+
+          img {
+            width: 7%;
+            margin-right: 0.5rem;
+          }
+          p {
+            font-size: 1.2rem;
+            color: $secondaryDarkText;
+          }
+        }
+
+        .link.active {
+          p {
+            color: $gradientText2;
+            font-weight: 600;
+          }
+        }
+
+        .d-link {
+          position: relative;
+
+          .downArrow {
+            color: $gradientText2;
+            margin-left: 0.5rem;
+          }
+          ul {
+            position: absolute;
+            top: 3.5rem;
+            left: 2rem;
+            height: 0;
+
+            li {
+              list-style: none;
+
+              &:hover {
+                p {
+                  color: $gradientText2;
+                }
+              }
+            }
+
+            .menuLink {
+              @include flexStyles(start, center);
+              padding: 0.4rem 0rem;
+
+              .rightArrow {
+                margin-left: 0.5rem;
+                color: $secondaryDarkText;
+              }
+            }
+          }
+        }
+
+        .link-btns {
+          width: 100%;
+          height: auto;
+          margin-top: 18rem;
+          @include flexStyles(space-between, center);
+          flex-direction: column;
+
+          .linkBtn {
+            width: 80%;
+            height: 55px;
+            margin: 1rem 0;
+
+            button {
+              width: 100%;
+              height: 100%;
+              @include flexStyles(center, center);
+
+              img {
+                width: 7%;
+                margin-right: 0.5rem;
+              }
+
+              p {
+                font-size: 1.1rem;
+              }
+            }
+          }
+
+          .linkBtn:nth-child(1) {
+            button {
+              background: $buttonBG;
+              p {
+                color: white;
+              }
+            }
+          }
+          .linkBtn:nth-child(2) {
+            button {
+              p {
+                color: white;
+              }
+            }
+          }
+        }
+      }
+
+      .navButtons {
+        @include flexStyles(space-between, center);
+        width: 35%;
+
+        .sun,
+        .moon {
+          font-size: 1.2rem;
+        }
+        .sun {
+          color: rgb(247, 220, 69);
+        }
+
+        .menuToggoler {
+          font-size: 1.3rem;
+        }
+
+        .lang{
+          width: 20%;
+          cursor: pointer;
+        }
+      }
+    }
+    .activeMenu {
+      background: $dark3;
+
+      .moon {
+        color: white;
+      }
+      .menuToggoler {
+        color: white;
+      }
+    }
+  }
+
+  #header {
+    overflow-x: hidden !important;
+
+    width: 100vw;
+    height: 207vh;
+    padding: 5rem 3rem 3rem 3rem;
+
+    .gradient1,
+    .gradient2 {
+      width: 20rem;
+      height: 20rem;
+    }
+
+    @keyframes g1 {
+      50% {
+        top: 5%;
+        left: 0%;
+      }
+      100% {
+        top: 65%;
+        left: 5%;
+      }
+    }
+    @keyframes g2 {
+      50% {
+        bottom: 5%;
+        right: 0%;
+      }
+      100% {
+        bottom: 55%;
+        right: 10%;
+      }
+    }
+
+    .details {
+      width: 100%;
+      height: auto;
+      @include flexStyles(center, center);
+      flex-direction: column;
+
+      .left-col {
+        width: 100%;
+        height: 35vh;
+        @include flexStyles(center, center);
+
+        h2 {
+          width: 100%;
+          font-size: 1.5rem;
+          text-align: center;
+          line-height: 0;
+          margin-bottom: 1.2rem;
+        }
+
+        h1 {
+          font-size: 3rem;
+          line-height: 4rem;
+          text-align: center;
+
+          span {
+            font-size: 3.2rem;
+          }
+        }
+
+        .circle {
+          left: 0%;
+          bottom: 24%;
+          width: 100%;
+        }
+      }
+
+      .right-col {
+        width: 100%;
+        height: auto;
+        @include flexStyles(center, center);
+        position: relative;
+        right: 0;
+        p {
+          width: 100%;
+          text-align: center;
+        }
+
+        .btn-group {
+          width: 100%;
+
+          .linkBtn {
+            width: 47%;
+
+            button {
+              p {
+                width: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .review-section {
+      
+      margin-top: 2rem;
+      height: 7vh;
+      @include flexStyles(start, center);
+      flex-direction: column;
+      gap: 5px;
+
+      .star-review {
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+
+      .text-review {
+        display: none;
+      }
+    }
+
+    .banner {
+      height: 100vh;
+      .student {
+        display: none;
+      }
+
+      .content {
+        flex-direction: column;
+        padding: 2rem 1rem;
+
+        .details {
+          width: 100%;
+          height: 63%;
+          margin-top: 0;
+          @include flexStyles(space-between, center);
+
+          .banner-title {
+            font-size: 0.7rem;
+            margin-bottom: 1rem;
+          }
+
+          h1 {
+            font-size: 1.5rem;
+          }
+
+          h2 {
+            width: 100%;
+            text-align: center !important;
+          }
+          .desc {
+            text-align: center !important;
+            font-size: 0.9rem;
+          }
+
+          .seminarPlace {
+            @include flexStyles(center, center);
+          }
+
+          .timing {
+            width: 100%;
+            flex-direction: column;
+            .start {
+              margin-bottom: 1rem;
+            }
+            .time {
+              h2 {
+                font-size: 1.2rem;
+              }
+            }
+          }
+
+          .price {
+            width: 100%;
+            text-align: center;
+            margin: 4px;
+            font-size: 1.2rem;
+            border: 1px solid rgba(255, 255, 255, 0.126);
+            border-radius: 0.3rem;
+          }
+
+          .btn-group {
+            width: 100%;
+            margin-top: 1rem;
+            flex-direction: column-reverse;
+
+            .linkBtn {
+              margin-bottom: 1rem;
+              width: 70%;
+
+              .cash {
+                display: none;
+              }
+              button {
+                height: 50px;
+                p {
+                  font-size: 0.8rem;
+                  margin: 0;
+                }
+              }
+            }
+          }
+        }
+
+        .illustrations {
+          width: 100%;
+          height: 35%;
+
+          // .boy {
+          //   width: 106%;
+          //   left: -5%;
+          //   top: 0;
+          // }
+          .girl {
+            width: 90%;
+          bottom: 0%;
+          left: 5%;
+          }
+        }
+      }
+    }
+  }
+
+  #journey {
+    overflow-x: hidden !important;
+
+    padding: 3rem;
+    flex-direction: column-reverse;
+
+    .left-slider {
+      width: 100%;
+      margin-top: 2rem;
+
+      #journeyCard {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+        width: 100%;
+        height: 45vh;
+        gap: 0.5rem;
+        padding: 0 0.3rem;
+
+        .card-item {
+          width: 100%;
+          height: 25vh;
+        }
+
+        .card-item:nth-child(1),
+        .card-item:nth-child(4) {
+          width: 100%;
+          height: 100%;
+          padding: 0 0.5rem;
+          h3 {
+            text-align: center;
+            font-size: 1rem;
+          }
+        }
+
+        .card-item:nth-child(2),
+        .card-item:nth-child(5) {
+          width: 100%;
+          height: 100%;
+          margin-right: 1rem;
+          grid-column: 2/-1;
+          padding: 0 0.5rem;
+
+          small {
+            width: 100%;
+            font-size: 0.8rem;
+          }
+          img {
+            width: 20%;
+          }
+        }
+
+        .card-item:nth-child(3),
+        .card-item:nth-child(6) {
+          display: none;
+        }
+      }
+    }
+
+    .right-details {
+      width: 100%;
+      @include flexStyles(center, center);
+      flex-direction: column;
+
+      .path {
+        width: 15%;
+        margin-bottom: 1rem;
+      }
+
+      h1 {
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+        line-height: 2.5rem;
+      }
+      p {
+        text-align: center;
+        font-size: 0.9rem;
+      }
+
+      .btn-group {
+        flex-direction: column;
+        width: 100%;
+
+        .linkBtn {
+          width: 70%;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+
+  #ourSeminars {
+    @include basicStyle(auto, 3rem, 3rem);
+    padding-bottom: 5rem;
+
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+
+    .seminars-slider {
+      .seminarCard {
+        display: flex;
+        flex-direction: column;
+
+        .card-item:nth-child(2) {
+          width: 100%;
+          height: 42vh;
+          padding: 1rem;
+          .date,
+          .title,
+          .place {
+            width: 100%;
+            @include flexStyles(start, start);
+
+            img {
+              width: 7%;
+              margin-right: 0.5rem;
+              margin-top: 0.3rem;
+            }
+          }
+
+          .place {
+            p {
+              text-align: left;
+            }
+          }
+
+          .title {
+            h2 {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #popularCourses {
+    overflow-x: hidden !important;
+
+    width: 100vw;
+    height: auto;
+
+    .back {
+      height: 40%;
+    }
+
+    .front {
+      padding: 0 3rem;
+
+      h1 {
+        font-size: 2rem;
+      }
+      .sec-subTitle {
+        font-size: 0.9rem;
+      }
+
+      .slider {
+        height: 60vh;
+        #courseCard {
+          width: 100%;
+          height: 100%;
+
+          .course-details {
+            padding: 1rem;
+            h2 {
+              font-size: 1.3rem;
+              height: auto;
+            }
+
+            small {
+              margin-top: 0.5rem;
+            }
+
+            .desc {
+              margin-top: 0.5rem;
+              width: 100%;
+              height: 30%;
+            }
+            .enrollNum {
+              margin-top: 0.2rem;
+            }
+          }
+        }
+      }
+    }
+
+    #coursePopup {
+      width: 100vw;
+      height: 100vh;
+      top: 0%;
+      .content {
+        width: 90%;
+        height: 70%;
+
+        iframe {
+          height: 30%;
+        }
+        .details {
+          flex-direction: column;
+
+          .left-col {
+            width: 100%;
+            height: 50%;
+            h2 {
+              font-size: 1.2rem;
+            }
+            p {
+              font-size: 0.7rem;
+            }
+          }
+
+          .right-col {
+            width: 100%;
+            height: 45%;
+            margin-top: 2rem;
+            ul {
+              @include flexStyles(space-between, start);
+              flex-wrap: wrap;
+
+              li {
+                margin-bottom: 0.3rem;
+
+                p {
+                  font-size: 0.8rem;
+                }
+              }
+            }
+            button {
+              width: 130px;
+              margin-top: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #courseCategory {
+    overflow-x: hidden !important;
+
+    width: 100vw;
+    height: auto;
+    padding: 3rem;
+    flex-direction: column;
+
+    .left-col {
+      width: 100%;
+      height: 55vh;
+      @include flexStyles(center, center);
+
+      img {
+        width: 100%;
+      position: absolute;
+      bottom: 45%;
+      left: 0%;
+      opacity: 0;
+      }
+      h1 {
+        font-size: 2rem;
+        margin-top: 7rem;
+        text-align: center;
+      }
+      p {
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+      }
+    }
+
+    .right-col {
+      width: 100%;
+      margin-top: -45%;
+
+      .category-grid {
+        margin-top: 7rem;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 1rem;
+
+        .category-item {
+          height: 100%;
+
+          h2 {
+            font-size: 1.2rem;
+          }
+          small {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+
+  #support {
+    overflow-x: hidden !important;
+
+    padding: 0rem 3rem 3rem 3rem;
+
+    .switchBar {
+      width: 100%;
+
+      .switches {
+        .switchArea {
+          .switch {
+            width: 0.8rem;
+            height: 0.8rem;
+          }
+          p {
+            font-size: 0.7rem;
+          }
+        }
+      }
+
+      .line {
+        width: 93%;
+        top: 35%;
+        left: 4%;
+      }
+    }
+
+    h1 {
+      font-size: 2rem;
+      width: 100%;
+      text-align: center;
+    }
+    .supportText {
+      text-align: center;
+      margin-top: 2rem;
+    }
+  }
+
+  #seminar {
+    overflow-x: hidden !important;
+
+    height: auto;
+    padding: 3rem;
+
+    .gradient1 {
+      width: 25rem;
+      height: 25rem;
+    }
+
+    .freeCourses {
+      .top-row {
+        h1 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 0.9rem;
+        }
+      }
+
+      .bottom-row {
+        #freeCourseCard {
+          width: 100%;
+          height: 55vh;
+
+          .course-details {
+            padding: 1rem;
+            h2 {
+              font-size: 1rem;
+              height: auto;
+            }
+
+            small {
+              margin-top: 0.5rem;
+            }
+
+            .desc {
+              margin-top: 0.5rem;
+              width: 100%;
+              height: 30%;
+            }
+            .enrollNum {
+              margin-top: 0.2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #FAQ {
+    overflow-x: hidden !important;
+
+    height: auto;
+    padding: 3rem 3rem 5rem 3rem;
+    flex-direction: column;
+
+    .left-col {
+      width: 100%;
+      height: auto;
+      @include flexStyles(center, center);
+
+      .rocket {
+        width: 15%;
+      }
+      h1 {
+        font-size: 2rem;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+        font-size: 0.9rem;
+        margin-top: 1rem;
+      }
+      .linkBtn {
+        width: 70%;
+        button {
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+    .ans-col {
+      width: 100%;
+      height: 50vh;
+      margin-top: 3rem;
+
+      .row {
+        h3 {
+          font-size: 1rem;
+          img {
+            width: 5%;
+          }
+        }
+        p {
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+  
+  #socialSupport {
+    overflow-x: hidden !important;
+    overflow-y: hidden;
+    height: 110vh;
+    padding: 10rem 3rem 3rem 3rem;
+    flex-direction: column;
+
+    .left-col {
+      width: 100%;
+      height: 50%;
+
+      h1 {
+        font-size: 2rem;
+        text-align: center;
+      }
+      p {
+        font-size: 0.9rem;
+        text-align: center;
+        margin-top: 1rem;
+      }
+      .btn-group {
+        width: 100%;
+        flex-direction: column;
+
+        .linkBtn {
+          width: 70%;
+          margin-bottom: 1rem;
+          button {
+            img {
+              margin-right: 0.5rem;
+            }
+            p {
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+    .right-col {
+      width: 100%;
+      height: 30%;
+      img {
+        width: 110%;
+        position: relative;
+      }
+
+      .gradient1,
+      .gradient2 {
+        width: 20rem;
+        height: 20rem;
+      }
+    }
+  }
+
+  #ourTeam {
+    @include basicStyle(auto, 3rem, 3rem);
+
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
+
+    .team {
+      height: auto;
+      flex-direction: column;
+      gap: 1rem 0;
+
+      .team-member {
+        width: 100%;
+        height: 10vh;
+      }
+
+      .team-member:nth-child(5) {
+        .details {
+          small {
+            font-size: 0.7rem;
+          }
+        }
+      }
+
+      .team-member.mem-active {
+        width: 100%;
+        height: 50vh;
+      }
+    }
+  }
+
+  #footer {
+    overflow-x: hidden !important;
+
+    height: 60vh;
+
+    .content {
+      height: 100%;
+
+      .top {
+        width: 100%;
+        padding: 2rem 3rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1rem;
+
+        .logo-area {
+          margin-bottom: 1rem;
+          grid-column: 1/-1;
+          width: 100%;
+          @include flexStyles(center, center);
+
+          img {
+            width: 35%;
+            margin-bottom: 1rem;
+          }
+          small {
+            text-align: center;
+            font-size: 0.8rem;
+          }
+        }
+        .company {
+          grid-column: 1/3;
+          width: 100%;
+        }
+        .others {
+          grid-column: 3/-1;
+          width: 100%;
+        }
+        .social-media {
+          grid-column: 1/-1;
+          width: 100%;
+
+          span {
+            margin: 0.1rem;
+            font-size: 0.8rem;
+            img {
+              width: 5%;
+            }
+          }
+        }
+
+        .company,
+        .social-media,
+        .others {
+          .title {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+          }
+
+          .footer-link {
+            margin: 0.1rem;
+            font-size: 0.8rem;
+          }
+        }
+      }
+      .middle {
+        padding: 0 0rem;
+        height: 10%;
+        background: url("../assets/mobilePayment.png");
+        background-position: center;
+        background-size: cover;
+      }
+      .bottom {
+        height: 10%;
+      }
+    }
+  }
+}

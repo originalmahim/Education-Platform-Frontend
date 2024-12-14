@@ -1,0 +1,282 @@
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;600;700&display=swap");
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+//Colors---------------------------------
+$dark1: #000a11;
+$dark2: #001422;
+$dark3: #001523;
+$dark4: #001c2fb1;
+$darkBanner: #002c49c3;
+$blueGradient: #147fd67b;
+$darkNav: #06060644;
+$lightNav: #ffffff3a;
+$primaryDarkText: #f3f3f3;
+$bannerBorder: #cccccc67;
+$secondaryDarkText: #aeaeae;
+$secondaryLightText: #8e8e8e;
+$highlight: #04a799;
+$highlightHover: #01ae54;
+$gradientText1: #52ff00;
+$gradientText2: #1a94f5;
+$buttonBG: #ffffff28;
+$star: #ffbb00;
+$enrollBtn: #583cea;
+$enrollBtnDark: #a357ff;
+$borderColor: #8b8b8b38;
+
+//themes---------------------------------
+.light {
+  .mobile-nav {
+    background: #fff;
+  }
+  .primary-text {
+    color: $dark2;
+  }
+  .primary-bg {
+    background: $dark2;
+    color: #fff;
+  }
+  .secondary-text {
+    color: $secondaryLightText;
+  }
+
+
+  .s-bg {
+    background: #ccccccb7;
+  }
+  .background {
+    background: #fff;
+  }
+  .nav-bg {
+    background: $lightNav;
+  }
+  .drop-bg {
+    background: #fff;
+  }
+  .sec-background {
+    background: #f8f8f8;
+  }
+  .textGradient {
+    background: -webkit-linear-gradient(-45deg, #47e100, #0365b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .footer-bg {
+    background: #ffffff;
+  }
+
+  .hbtn {
+    background: #04a799;
+  }
+
+  .sbtn {
+    background: #1e1e1e28;
+  }
+  .bannerBg {
+    background: #fdfef9;
+  }
+  .jc1 {
+    background: #ffffff;
+  }
+  .jc2 {
+    background: #14d6721b;
+  }
+  .jc3 {
+    background: #00a5760a;
+  }
+
+  .p-course {
+    background: #f0f0f076;
+    border: 1px solid #dddddd;
+  }
+  .star {
+    color: #ffa200;
+  }
+
+  .gitem {
+    background: #ffffff89;
+  }
+  .team-bg {
+    background: #fefefece;
+  }
+}
+
+.dark {
+  .mobile-nav {
+    background: $dark3;
+  }
+  .primary-text {
+    color: $primaryDarkText;
+  }
+  .primary-bg {
+    background: $primaryDarkText;
+    color: $dark3;
+  }
+  .secondary-text {
+    color: $secondaryDarkText;
+  }
+  .s-bg {
+    background: #cccccc30;
+  }
+  .background {
+    background: linear-gradient(#000a11, #001422);
+  }
+  .sec-background {
+    background: #001422;
+  }
+  .nav-bg {
+    background: $darkNav;
+  }
+  .drop-bg {
+    background: #001625;
+  }
+  .team-bg {
+    background: #000000ce;
+  }
+  .textGradient {
+    background: -webkit-linear-gradient(-45deg, #00a89c, #028dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .footer-bg {
+    background: #001d30;
+    border-top: 1px solid #cccccc44;
+  }
+  .hbtn {
+    background: $highlight;
+  }
+
+  .sbtn {
+    background: $buttonBG;
+  }
+  .bannerBg {
+    background: #001019;
+  }
+  .jc1 {
+    background: $darkBanner;
+  }
+  .jc2 {
+    background: $blueGradient;
+  }
+  .jc3 {
+    background: #005ba522;
+  }
+
+  .p-course {
+    background: $blueGradient;
+    border: 1px solid $blueGradient;
+  }
+  .star {
+    color: $star;
+  }
+
+  .gitem {
+    background: #002c4989;
+  }
+}
+
+
+
+
+//Fonts----------------------------------
+$hind: "Hind Siliguri", sans-serif;
+
+//Same Code------------------------------
+@mixin basicStyle($height, $yPadding, $xPadding) {
+  
+  height: $height;
+  padding: $yPadding $xPadding;
+}
+
+@mixin flexStyles($justifyContent, $alignItems) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $hind;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border-radius: 0.3rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.slick-dots li button:before {
+  color: $gradientText2;
+  margin-top: 2rem;
+}
+
+.slick-dots li.slick-active button:before {
+  color: $star;
+}
+
+.slick-prev:before {
+  color: $gradientText2;
+}
+.slick-next:before {
+  color: $gradientText2;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: $borderColor;
+  margin: 1rem 0;
+}
+
+@import "./Components_style/navbar";
+@import "./Components_style/footer";
+@import "./Components_style/construction";
+
+@import "./Pages_style/home_style/homepage";
+@import "./Pages_style/home_style/header";
+@import "./Pages_style/home_style/journey";
+@import "./Pages_style/home_style/popularCourses";
+@import "./Pages_style/home_style/ourSeminars";
+@import "./Pages_style/home_style/category";
+@import "./Pages_style/home_style/support";
+@import "./Pages_style/home_style/seminar";
+@import "./Pages_style/home_style/faq";
+@import "./Pages_style/home_style/socialSupport";
+@import "./Pages_style/home_style/team";
+@import "./Pages_style/home_style/CourseDetaisPage";
+
+//marketplace styles
+@import "./Pages_style/marketplaceStyles/marketplace";
+@import "./Pages_style/marketplaceStyles/singleCategory";
+@import "./Pages_style/marketplaceStyles/postJob";
+@import "./Pages_style/marketplaceStyles/singleJob";
+@import "./Pages_style/marketplaceStyles/clientProfile";
+@import "./Pages_style/marketplaceStyles/talentProfile";
+
+@import "./responsive";
+@import "./../styles/Pages_style/home_style/Coursestart.scss";
+@import "./../styles/Pages_style/home_style/upcommingseminar.scss";
+
+//login styles
+@import "./../styles/Pages_style/Login_style/_login.scss";
+
+//Blogs Styles
+@import "./../Components/Blog/_Blogcatagory.scss";
+@import "./../Components/Blog/_Blog.scss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

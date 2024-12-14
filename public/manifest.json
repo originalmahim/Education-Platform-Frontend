@@ -1,0 +1,25 @@
+{
+  "short_name": "Tahzib App",
+  "name": "Tahzib Institute App",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logomini.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logofull.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://tahzibinstitute.netlify.app/Login",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
